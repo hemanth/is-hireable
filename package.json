@@ -1,11 +1,11 @@
 {
   "name": "is-hireable",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Can I hire this github user?",
   "license": "MIT",
   "repository": "hemanth/is-hireable",
   "bin": {
-   "is-hireable": "cli.js"
+    "is-hireable": "cli.js"
   },
   "author": {
     "name": "Hemanth.HM",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.js",
-     "cli.js"
+    "cli.js"
   ],
   "keywords": [
     "github",
