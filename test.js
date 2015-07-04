@@ -2,6 +2,8 @@
 var assert = require('assert');
 var isHireable = require('./');
 
-it('should ', function () {
-	assert.strictEqual(isHireable('unicorns'), 'unicorns & rainbows');
+it('should be hierable', function () {
+	isHireable('hemanth',function(err,status){
+		assert.strictEqual(status, true);
+	});
 });
