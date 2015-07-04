@@ -40,8 +40,8 @@ Example
   $ is-heireable hemanth
   YES!
 
-	$ echo "passy" | is-heireable
-	NO
+  $ echo "passy" | is-heireable
+  NO
 ```
 
 ## License
