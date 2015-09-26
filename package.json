@@ -29,9 +29,9 @@
     "search"
   ],
   "dependencies": {
-    "gh-user": "^1.0.0"
+    "gh-user": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.3.3"
   }
 }
