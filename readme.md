@@ -40,7 +40,7 @@ Example
   $ is-heireable hemanth
   YES!
 
-  $ echo "passy" | is-heireable
+  $ echo "passy" | is-hireable
   NO
 ```
 
