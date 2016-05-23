@@ -32,6 +32,6 @@
     "gh-user": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.5.0"
   }
 }
