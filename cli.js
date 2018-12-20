@@ -16,12 +16,7 @@ function help() {
 	console.log('  true');
 }
 
-function init(user) {
-	isHireable(user, function (err,hireable) {
-		if (err) throw new Error(err);
-		console.log(hireable ? "YES!": "NO");
-	});
-}
+const init = async (user) => console.log((await isHireable(user)) ? '👍' : '👎');
 
 if (process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1) {
 	help();

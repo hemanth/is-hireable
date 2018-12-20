@@ -15,16 +15,16 @@ $ npm install --save is-hireable
 ```js
 var isHireable = require('is-hireable');
 
-isHireable(user, function (err,hireable) {
-	if (err) throw new Error(err);
-	console.log(hireable ? "YES!": "NO");
-});
+(async () => {
+    console.log(await isHireable('hemanth'));
+    //=> 👍
+})();
 ```
 
 
 ## API
 
-### isHireable(<github_user_name>, <callback>)
+### isHireable(<github_user_name>)
 
 ## CLI
 
@@ -38,10 +38,10 @@ Usage
 
 Example
   $ is-heireable hemanth
-  YES!
+  👍
 
   $ echo "passy" | is-hireable
-  NO
+  👎
 ```
 
 ## License
